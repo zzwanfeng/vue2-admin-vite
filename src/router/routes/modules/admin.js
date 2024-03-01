@@ -74,5 +74,23 @@ export default [
         title: '修改密码'
       }
     }]
+  },
+  {
+    path: '/others',
+    name: 'others',
+    component: AdminLayout,
+    redirect: '/others/about',
+    meta: {
+      title: '其它',
+      icon: 'el-icon-question'
+    },
+    children: [{
+      path: 'about',
+      name: 'about',
+      component: () => import('@/views/others/about.vue'),
+      meta: {
+        title: '插件信息'
+      }
+    }]
   }
 ]

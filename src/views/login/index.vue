@@ -8,7 +8,8 @@
     overflow="hidden"
     bg="gradient-light dark:gradient-dark"
   >
-    <img src="@/assets/img/login_banner.svg" w="lg">
+    <img src="@/assets/img/login_banner.png" w="lg">
+
     <login-form />
   </div>
 </template>
